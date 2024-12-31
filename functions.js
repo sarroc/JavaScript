@@ -1,5 +1,7 @@
+//ALERT
 //alert("it's working!");
 
+//SIMPLE
 //function dog() {
 //console.log("woof woof woof");
 //console.log("gimme treat now!");
@@ -7,6 +9,7 @@
 //}
 //dog();
 
+//GREETING
 //function greet(nickname) {
 //console.log(nickname);
 //console.log("Hi!");
@@ -16,6 +19,7 @@
 //console.log(`Hi, ${nickname}!`);
 //}
 
+//MATH
 //function sum(x, y) {
 //console.log(x + y);
 //}
@@ -30,6 +34,8 @@
 //function add(x, y) {
 //return x + y; //returns the value and function is done. Return stops any further execution of the function.
 //}
+
+//COLOR
 //function isOrange(color) {
 //if (color.toLowerCase() === "orange") {
 //return true;
@@ -37,7 +43,6 @@
 //return false;
 //}
 //}
-
 //function isOrange(color) {
 //if (color.toLowerCase() === "orange") {
 //return true;
@@ -60,43 +65,45 @@
 //return false; //has to be placed here as last option so the we done with looping through the entire array.
 //}
 
-//  function isValidPassword(password, username) {
-//    if (password.length < 8) {
-//  return false;
-//    }
-//    if (password.indexOf(" ") !== -1) {
-//  return false;
-//    }
-//    if (password.indexOf(username) !== -1) {
-//    }
-//    return true;
-//  }
+//PASSWORD
+//function isValidPassword(password, username) {
+//if (password.length < 8) {
+//return false;
+//}
+//if (password.indexOf(" ") !== -1) {
+//return false;
+//}
+//if (password.indexOf(username) !== -1) {
+//}
+//return true;
+//}
 
-// function isValidPassword(password, username) {
-//   if (
-// password.length < 8 ||
-// password.indexOf(" ") !== -1 ||
-// password.indexOf(username) !== -1
-//   ) {
-// return false;
-//   }
-//   return true;
-// } // shorter version of above function.
+//function isValidPassword(password, username) {
+//if (
+//password.length < 8 ||
+//password.indexOf(" ") !== -1 ||
+//password.indexOf(username) !== -1
+//) {
+//return false;
+//}
+//return true;
+//} // shorter version of above function.
 
-// function isValidPassword(password, username) {
-//   const tooShort = password.length < 8;
-//   const hasSpace = password.indexOf(" ") !== -1;
-//   const usesName = password.indexOf(username) !== -1;
-//   if (tooShort || hasSpace || usesName) return false;
-//   return true;
-// } // version with variables
+//function isValidPassword(password, username) {
+//const tooShort = password.length < 8;
+//const hasSpace = password.indexOf(" ") !== -1;
+//const usesName = password.indexOf(username) !== -1;
+//if (tooShort || hasSpace || usesName) return false;
+//return true;
+//} // version with variables
 //
 
-// function isValidPassword(password, username) {
-//   const tooShort = password.length < 8;
-//   const hasSpace = password.indexOf(" ") !== -1;
-//   const usesName = password.indexOf(username) !== -1;
-//   if (!tooShort && !hasSpace && !usesName) return true;
-//   return false;
-// }
+//function isValidPassword(password, username) {
+//const tooShort = password.length < 8;
+//const hasSpace = password.indexOf(" ") !== -1;
+//const usesName = password.indexOf(username) !== -1;
+//if (!tooShort && !hasSpace && !usesName) return true;
+//return false;
+//}
 
+//AVERAGE
