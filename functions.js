@@ -168,21 +168,46 @@
 // }
 // function getCard() {
 //   const values = [
-    // "2",
-    // "3",
-    // "4",
-    // "5",
-    // "6",
-    // "7",
-    // "8",
-    // "9",
-    // "10",
-    // "J",
-    // "Q",
-    // "K",
-    // "A",
+// "2",
+// "3",
+// "4",
+// "5",
+// "6",
+// "7",
+// "8",
+// "9",
+// "10",
+// "J",
+// "Q",
+// "K",
+// "A",
 //   ];
 //   const suits = ["clubs", "spades", "hearts", "diamonds"];
 //   return { value: pick(values), suit: pick(suits) };
 // }
 
+// Function Scope
+// function isPerson(){
+// let person = 'Charlie';
+// const age = 40
+// var color = 'orange'
+// console.log(color);
+// }
+//
+// function changeColor(){
+// let color = 'purple';
+// const form = 'round';
+// console.log(color);
+// }
+// isPerson();
+// changeColor();
+
+// let bird = "bee hummingbird";
+// 
+// function birdWatch() {
+//   let bird = "owl";
+//   console.log(bird);
+// }
+// birdWatch();
+// console.log(bird);
+// 
